@@ -1,0 +1,256 @@
+/**{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;*/
+
+.login{  	/*formulario para login*/
+ font-family: "Arial";
+	 font-weight: 300px;
+	 text-align:center;
+	 width: 30%;
+	 min-width:350px;
+	 vertical-align:middle;
+	 margin: auto;
+	 margin-top:10px;
+	 background-color:#E6E6E6;
+	 border-bottom:2px solid #999;
+	 border-right:2px solid #999;
+	 border-radius: 20px;
+	 -moz-border-radius: 20px;
+	 -webkit-border-radius:20px;
+	 padding: 30px;
+	 padding-top:0;
+	 padding-bottom:15px;
+	 overflow:hidden;
+}
+
+.titul{
+	 font-family: Tahoma, Geneva, sans-serif;
+	 font-size:.9em;
+	 text-align:center;
+	 width: 30%;
+	 vertical-align:middle;
+	 margin: auto;
+	 background-color:#E6E6E6;
+	 border-bottom:2px solid #999;
+	 border-right:2px solid #999;
+	 border-radius: 20px;
+	 -moz-border-radius: 20px;
+	 -webkit-border-radius:20px;
+	 overflow:hidden;
+}
+
+.Consulta{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	border-color:#CCC;
+	margin:auto;
+}
+
+.Consulta th{
+	background-color:#096;
+	color:#FFF;
+	font-size:1.1em;
+}
+
+.Consulta tr#totalizacion{
+	background-color:#096;
+	color:#FFF;
+	font-size:1.1em;
+}
+.Consulta th#partu{
+	min-width:80px;
+}
+
+.Consulta th#deno{
+	min-width:120px;
+}
+
+.Consulta th#tit_tabla{
+	min-width:200px;
+	font-size:2.5em;
+}
+
+.pgen{
+	background-color:#6CF;
+}
+
+.psub{
+	color:#2F9C23;
+}
+
+.pespe{
+	color:#00F;
+}
+
+.dinero{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:right;
+}
+
+img{
+	border:none;
+}
+
+.Misiones tr:nth-child(even){
+  background-color:#FFFF80;
+}
+
+#Autentica{
+	text-align:left;
+	width:auto;
+	margin:10px;
+}
+
+#menu{
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:.9em;
+	text-align:right;
+}
+#menu ul{
+    padding:0 0 3px 0; /* Quitamos el padding */
+		margin-left:0; /* Quitamos los margenes */    
+		border-bottom:1px solid #669;
+		font:.9em Tahoma, Geneva, sans-serif;
+}
+#menu ul li {
+    list-style:none;
+		margin: 0;
+		display:inline; /* Hacemos que el menu se muestre horizontal */		
+}
+#menu ul li a{
+	padding:3px 0.5em;    
+	margin-left:5px;
+	border-bottom:none;
+  background:#E0E0E0;
+	color:#666;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+  color:#FFFFFF;
+	background:red;
+}
+
+#menu ul li a#actual{
+	margin-right:30px;
+	background:White;
+}
+
+#menu ul li a#actual:hover{
+	color:Red;
+}
+
+#menu ul li img{
+	padding:0px;	
+	margin-bottom:0px;
+	margin-left:5px;
+	border-bottom:none;
+}
+
+.tipo_serv{
+	color:inherit;
+	text-decoration:none;
+}
+
+.Formulario{  /*formulario de bordes redondeados*/
+	 font-family: "Arial";
+	 font-weight: 300px;
+	 width: 80%;
+	 vertical-align:middle;
+	 min-width:550px;
+	 margin: auto;
+	 margin-top:10px;
+	 background-color:#E6E6E6;
+	 border-bottom:2px solid #999;
+	 border-right:2px solid #999;
+	 border-radius: 20px;
+	 -moz-border-radius: 20px;
+	 -webkit-border-radius:20px;
+	 padding: 10px;
+	 padding-top:10px;
+	 overflow:hidden;
+}
+
+#Mensaje{
+	text-align:center;
+	padding:10px;
+	margin:5px;
+	padding:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	vertical-align:middle;
+	text-align:center;
+	border-left:1px solid #ccc ;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid White;
+	border-right:1px solid White;
+}	
+
+.EntradaFechas{
+	width:130px;
+}
+.EntradaLarga{
+	width:100%;
+}
+.EntradaStnd{
+	width:90%;
+}
+
+.EntradaCorta{
+	width:50px;
+	text-align:center;
+}
+
+.POA{
+	display:inline;
+	vertical-align:text-bottom;
+	text-align:center;
+}
+
+legend{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.9em;	
+	font-style:italic;	
+	color:Red;
+}
+	
+label {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;	
+	display:block;
+}
+
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../cal.gif) no-repeat;
+}
+
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+input.dp-applied {
+	width: auto;
+	float: left;
+	text-align:center;
+}
+
+#loading {
+height: 35px;
+padding: 0;
+margin: 0;
+}
+#loading img {
+margin:0;
+margin-left: 25px;
+padding: 0;
+display: none;
+}

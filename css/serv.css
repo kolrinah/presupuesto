@@ -1,0 +1,328 @@
+﻿@charset "utf-8";
+.tex_inf {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#AABFFF
+	text-decoration: none;
+}
+
+.id {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	color: #EC1E23;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.fecha {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 7px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+.usuario {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	color: #666666;
+}
+.aplic {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: bold;
+	color:#666;
+	background-color: #F0F0F0;
+	text-align: center;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	height:10px;
+}
+.nav_estado {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-weight: bold;
+	color: #F2F2F2;
+	background-color: #7D7D7D;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-color: #FFFFFF;
+}
+.tb_tit_abierto   {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #F2F2F2;
+	text-decoration: none;
+	background-color: #7D7D7D;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-left-color: #666666;
+}
+.tex_01 {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.combo {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #000000;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+}
+
+.fon_01 {
+	background-color: #EEEEEE;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+
+
+
+.pestana {
+	background-color: #D8D8D8;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #B4B4B4;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #868686;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.nav_menu_on {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	color: #FBFBFB;
+	text-decoration: none;
+	background-color: #EC1E23;
+	text-align: center;
+	padding: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #999999;
+	border-bottom-color: #666666;
+	border-left-color: #999999;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	height:20px;
+}
+.nav_fondo {
+	background-color: #CCCCCC;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #999999;
+	height:20px;
+}
+.nav_menu_off {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	color: #999999;
+	text-decoration: none;
+	background-color: #E2E2E2;
+	text-align: center;
+	padding: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #666666;
+	border-left-color: #999999;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	height:20px;
+}
+.tb_fon_cierre {
+	text-decoration: none;
+	background-color: #7D7D7D;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #666666;
+	border-right-color: #666666;
+}
+.tex_02 {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	line-height: 22px;
+}
+.fon_02 {
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.tex_03 {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #D8D8D8;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	line-height: 20px;
+}
+.fon_03 {
+	background-color: #D8D8D8;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.tex_04 {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #EC1E23;
+	text-decoration: none;
+	background-color: #E6E6E6;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	font-weight: bold;
+}
+.fon_04 {
+	background-color: #E8E3D7;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.combo2 {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #000000;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
+.tb_tit_off {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+	text-decoration: none;
+	background-color: #CCCCCC;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-left-color: #999999;
+}
+.tb_fon_off {
+	text-decoration: none;
+	background-color: #CCCCCC;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #999999;
+	border-right-color: #999999;
+}
